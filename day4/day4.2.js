@@ -62,7 +62,6 @@ function removeRolls (matrix) {
   return [borderedMatrix.map(rows => rows.join('')), rolls];
 }
 
-
 const printingDepartment = (matrix) => {
 
   let sum = 0;
